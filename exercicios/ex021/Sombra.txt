@@ -1,0 +1,1 @@
+Para colocar sombra usa o comando box-shadow e o recomendado é sempre o black na metade para ter um pouco de transparencia.

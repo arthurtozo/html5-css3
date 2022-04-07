@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+     <h1>Inserindo videos hospedados localmente</h1>
+     <p>Este video está hospedado no meu próprio servidor</p>
+     
+
+     <video  width="560" height="315" poster="imagens/imagem-png.png" controls autoplay loop>
+          <source src="midia/meuvideo-mp4.mp4" type="video/mp4">
+          <source src="midia/meuvideo=webm.webm" type="video/webm">
+          <source src="midia/meuvideo-m4v.m4v" type="video/mp4">
+          <source src="midia/meuvideo-ogv.ogv" type="video/ogv">
+          <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+          <!---fazer dessa maneira pode consumir muito a hospedagem e pesar demais no bolso do cliente, devido ao trafego de dados.--->
+     </video>
+
+     <h1>Inserindo videos do Youtube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/Joa1hyZQL58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <!--Usando videos hospedados em plataformas tipo youtube você não consome absurdamente a sua hospedagem, exemplo de outra plataforma é o vimeo-->
+</body>
+</html>

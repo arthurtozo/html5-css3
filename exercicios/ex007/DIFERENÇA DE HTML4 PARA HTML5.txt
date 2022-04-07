@@ -1,0 +1,7 @@
+O HTML4 focava mais na forma do que o significado, diferente do HTML5 que foca apenas no significado das palavras. 
+Para focar em forma, você deve usar apenas o CSS.
+Prestar atenção nas tags que estão ficando obsoletas.
+
+“Semântica é o significado dos
+vocábulos, por oposição à sua
+forma.” 
