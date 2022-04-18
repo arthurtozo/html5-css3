@@ -2,3 +2,4 @@ display - Como deve mostrar a linha o inline-block mostra no formato de blocos.
 background-image - linear-gradient para adicionar varias cores dentro do bloco ou item.
 background-repeat - Para escolher a forma que a imagem será repetida, no formato horizontal(repeat-x) ou vertical(repeat-y).
 background-size - Para diminuir ou aumentar o tamanho.
+background-position -posicionamento da imagem na site
