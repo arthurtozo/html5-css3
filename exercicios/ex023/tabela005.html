@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aprendendo usar colgroup</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -25,9 +25,61 @@
             border: 1px solid black;
             padding: 8px;
         }
+        col.cnome{
+            background-color: chartreuse;
+        }
+        col.cgrupo{
+            background-color: aquamarine;
+        }
     </style>
 </head>
 <body>
      <h1>Exercício de Tabela</h1>
+     <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Engenheiro Civil</td>
+        </tr>
+        <tr>
+            <td>Ana Flávia</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Desenvolvedora de Sistemas</td>
+        </tr>
+        <tr>
+            <td>Arthur</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Desenolvedor de Sistema</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Médica</td>
+        </tr>
+     </table>
 </body>
 </html>
